@@ -1,5 +1,7 @@
 # js-calendar
-Eternal calendar in core JavaScript
+Eternal calendar in core JavaScript.
+
+See the screenshots folder.
 
 This JavaScript calendar widget was created for European Web Challenge 2015.
 
