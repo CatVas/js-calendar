@@ -1,0 +1,8 @@
+DCCalendar(date) - initializes the Calendar object with the given date (only once).
+	_date - the initial date (readonly, highlighted always);
+	_currentDate - date of the current view (not highlightable);
+	_highLightedCell - the highlighted cell in the current view (only one);
+
+	renderCalendar(date) - sets the current date and renders the calendar view for it;
+	findDayCell(date) - returns the DOM-cell in the current view for the given date;
+	highlightDate(date) - highlihgts the date cell in the current view;

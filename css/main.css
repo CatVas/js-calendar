@@ -1,0 +1,228 @@
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+:focus {
+  outline: 0;
+}
+
+a {
+  color: #00f;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font: 62.5% Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+html, body {
+  height: 100%; }
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+button {
+  background: #3b94ed;
+  border: 0 none;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  color: #fff;
+  font: 1.5em Arial, Helvetica, sans-serif;
+  padding: 0.5em 0.4em;
+  text-align: center;
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="password"],
+textarea {
+  border: 1px solid black;
+  font: 1.5em Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.input {
+  display: block;
+}
+.input_in {
+  display: block;
+  margin: 0 8px 0 0;
+}
+.input input[type="date"],
+.input input[type="text"] {
+  padding: 5px 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1.2em 0 0;
+}
+h1 {
+  font-size:3em;
+  margin: 0.8em 0 0;
+  text-align: center;
+}
+h2 {font-size:2.7em;}
+h3 {font-size:2.4em;}
+h4 {font-size:2.1em;}
+h5 {font-size:1.8em;}
+h6 {font-size:1.5em;}
+
+ol, ul {
+  list-style: none;
+}
+p, li {
+  font-size:1.5em;
+  line-height:1.2;
+  margin:1.2em 0;
+  -webkit-text-size-adjust:none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  color:#000;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*---helpers---*/
+.border {
+  border: 1px solid black;
+}
+
+/*---classes---*/
+.calendar {
+  margin: 4em auto 0;
+  padding: 0 0 50px;
+  text-align: center;
+  width: 490px;
+}
+.calendar_header {
+  border-bottom: 1px solid #eee;
+  margin: 0 0 2em;
+  overflow: hidden;
+  padding: 0 0 0.7em;
+}
+.calendar_hd {
+  font-size: 1.9em;
+  margin:0.1em 0 0;
+}
+.calendar_slide {
+  background: #3B94ED;
+  border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.4em;
+  padding:0.4em 0.8em;
+  text-decoration: none;
+}
+.calendar_header .calendar_slide {
+  float: left;
+}
+.calendar_header .calendar_slide.i2 {
+  float: right;
+}
+
+.calendar_table {
+  min-height: 310px;
+  margin:0 0 1em;
+}
+.calendar_table table {
+  width: 100%;
+}
+.calendar_table th {
+  border-bottom: 1px solid #000;
+  padding: 0 0.5em 0.5em;
+}
+.calendar_table td {
+  font-size: 1.3em;
+  padding: 1.2em 0.5em;
+}
+.calendar_table .calendar_previous {
+  color:#999;
+}
+.calendar_cell_initial {
+  background: #0f0;
+}
+.calendar_cell_active {
+  background: #00f;
+  color: #fff;
+}
+.calendar_cell_active2 {
+  background: #f00;
+  color:#fff;
+}
+
+.f_1 {
+  margin: 0 auto;
+  width: 350px;
+}
+.f_1_field {
+  display: block;
+  margin: 0 0 2em;
+}
+.f_1_label {
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0 0 0.3em;
+}
+.f_1_btn {
+  text-align: center;
+}
+.f_1 button {
+  min-width: 200px;
+}
+
+.wrapper {
+  min-width: 600px;
+  padding: 1px 0 0;
+}
